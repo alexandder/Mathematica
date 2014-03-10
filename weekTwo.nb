@@ -1,0 +1,98 @@
+TrigReduce[2Sin[x]Cos[x]]
+
+TrigToExp[Sin[x]]
+
+ExpToTrig[%]
+
+e = Expand[(1 + 3x + 4y^2)^2]
+
+Coefficient[e, x]
+
+Exponent[e, y]
+
+Part[e, 4]
+
+e=.
+
+r = (1+x)/ (2(2-y))
+
+Denominator[%]
+
+Numerator[r]
+
+Denominator[1/x + 2/y]
+
+Expand[(x + 5y +10)^4]
+
+% // Short
+
+Short[%%, 3]
+
+Length[%71]
+
+D[x^n, x]
+
+D[x^2 + 2xLog[x+a], x]
+
+D[%, x, a]
+
+D[%, {x, 3}]
+
+Dt[x^n]
+
+Dt[x^n, x]
+
+D[f[x], x]
+
+D[2xf[x^2]]
+
+Integrate[x^n, x]
+
+Integrate[x^n + a, x] - ArcTan[x/2]
+
+Integrate[Sin[Sin[x]]]
+
+Integrate[Log[x], {x, a, b}]
+
+Integrate[Sin[Sin[x]], {x, 0, 1}]
+
+N[%]
+
+Integrate[xy, {x, 2 , 4}, {y, 1, 3}]
+
+Sum[x^i/i, {i, 1, 7}]
+
+Sum[x^i/i, {i, 2, 6, 2}]
+
+Product[i, {i, 4}]
+
+Sum[1/i^3, {i, 1, 20}]
+
+N[%]
+
+Sum[1/i^3, {i, 1, Infinity}]
+
+N[%]
+
+2x + x^2 == x(2+x)
+
+eqn = x^ + 2x + 3 == 0
+
+Solve[eqn, x]
+
+N[%]
+
+x /. %
+
+x^2 + 3x /. %%
+
+Solve[2 -4x + x^5 == 0, x]
+
+
+FindRoot[Cos[x] == x, {x, 1}]
+
+Solve[{ax + y = 0, 2x+ (1-a)y = 1 }, {x,y}]
+
+x + y /. %
+
+Eliminate[{ax + y = 0, 2x+ (1-a)y = 1 }, y]
