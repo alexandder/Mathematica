@@ -1,0 +1,10 @@
+
+iloczyn[A_, B_] := 
+ If[Dimensions[A][[2]] != Dimensions[B][[1]], 
+  Print["Mnożenie nie wykonalne"],
+  	result = {} 
+    	For[k = 1, k <= Dimensions[A][[2]], k++;
+     		row {};
+     		element = 0;
+     		For[m = 1, m <= Dimensions[B][[1]], m++;
+      			For
